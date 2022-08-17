@@ -76,11 +76,12 @@ body {
                 box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
                 
                 max-width: 380px;
-                height: 240px;
+                /* height: 240px; */
 
                 border-radius: 10px;
                 /* overflow: hidden; */
                 margin-bottom: 30px;
+                padding-bottom: 5px;
             }
                 .horizontal-line-left {
                     border-top: 5px solid hsl(180, 62%, 55%);
@@ -128,10 +129,11 @@ body {
                         margin-bottom: 30px;
                     }
                     .icon-container {
+                        width: 100%;
                         text-align: right;
                     }
                         .icon-container img {
-
+                            
                         }
 
     footer {
@@ -145,10 +147,6 @@ body {
     main {
         margin-top: 50px;
     }
-        .card {
-            /* padding-bottom: 20px; */
-            max-width: 600px;
-        }
             .columns-container {
                 gap: 0px;
                 flex-direction: column;
@@ -166,7 +164,6 @@ body {
                     .icon-container {
                         width: 100%;
                         text-align: right;
-                        /* margin-bottom: 20px; */
                     }
         
     
