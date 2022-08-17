@@ -10,6 +10,8 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
+    
+    background-color: hsl(0, 0%, 98%);
 }
     .main-copy-container {
         max-width: 530px;
@@ -19,16 +21,18 @@ body {
             font-weight: 200;
             font-size: 28px;
             letter-spacing: 2px;
+            color: hsl(234, 12%, 34%);
         }
         .title-two {
             font-weight: 600;
             font-size: 28px;
             letter-spacing: 2.5px;
+            color: hsl(234, 12%, 34%);
         }
         .title-description {
             font-weight: 200;
             font-size: 15px;
-
+            color: hsl(229, 6%, 66%);
             margin-top: 15px;
         }
 
