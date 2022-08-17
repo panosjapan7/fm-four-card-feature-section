@@ -79,24 +79,32 @@ body {
                 height: 240px;
 
                 border-radius: 10px;
-                overflow: hidden;
+                /* overflow: hidden; */
                 margin-bottom: 30px;
             }
                 .horizontal-line-left {
                     border-top: 5px solid hsl(180, 62%, 55%);
                     width: 100%;
+                    border-top-left-radius: 10px;
+                    border-top-right-radius: 10px;
                 }
                 .horizontal-line-middle-top {
                     border-top: 5px solid hsl(0, 78%, 62%);
                     width: 100%;
+                    border-top-left-radius: 10px;
+                    border-top-right-radius: 10px;
                 }
                 .horizontal-line-middle-bottom {
                     border-top: 5px solid hsl(34, 97%, 64%);
                     width: 100%;
+                    border-top-left-radius: 10px;
+                    border-top-right-radius: 10px;
                 }
                 .horizontal-line-right {
                     border-top: 5px solid hsl(212, 86%, 64%);
                     width: 100%;
+                    border-top-left-radius: 10px;
+                    border-top-right-radius: 10px;
                 }
                 .card-contents-container {
                     margin-top: 30px;
@@ -120,11 +128,10 @@ body {
                         margin-bottom: 30px;
                     }
                     .icon-container {
-                        width: 100%;
                         text-align: right;
                     }
                         .icon-container img {
-                            
+
                         }
 
     footer {
@@ -138,19 +145,29 @@ body {
     main {
         margin-top: 50px;
     }
-        .title-one {
-            font-size: 20px;
+        .card {
+            /* padding-bottom: 20px; */
+            max-width: 600px;
         }
-        .title-two {
-            font-size: 20px;
-        }
-        .title-description {
-            font-size: 15px;
-            max-width: 300px;
-        }
-        .columns-container {
-            gap: 0px;
-            flex-direction: column;
-        }
+            .columns-container {
+                gap: 0px;
+                flex-direction: column;
+            }
+                    .title-one {
+                        font-size: 20px;
+                    }
+                    .title-two {
+                        font-size: 20px;
+                    }
+                    .title-description {
+                        font-size: 15px;
+                        max-width: 300px;
+                    }
+                    .icon-container {
+                        width: 100%;
+                        text-align: right;
+                        /* margin-bottom: 20px; */
+                    }
+        
     
 }
